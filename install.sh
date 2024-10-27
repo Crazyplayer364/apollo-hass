@@ -63,3 +63,15 @@ echo "Running Home Assistant Installation via Docker Compose"
 
 # Installing Docker Compose
 sudo docker-compose up -d
+
+# Display access instructions
+echo "=================================================="
+echo "Home Assistant Installation Complete!"
+echo
+echo "To access Home Assistant, open your web browser and go to:"
+echo
+echo "    http://<YOUR_DEVICE_IP>:8123"
+echo
+echo "Replace <YOUR_DEVICE_IP> with the actual IP address of this device."
+echo "To find the IP address, run: ip a"
+echo "=================================================="
